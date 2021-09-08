@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 :root {
-    --color-primary: #6664d2;
-    --color-secondary: #00001a;
+    --color-primary: #58a6ff;
+    --color-secondary: #0d1117;
+    --color-java: #b07219;
+    --color-css: #563d7c;
 }
 
 html, body {
@@ -9,8 +11,25 @@ html, body {
     font-family: "Ubuntu", sans-serif;
     background-color: var(--color-secondary);
 }
+
 h1 {
     color: var(--color-primary);
+}
+
+h2 {
+    color: var(--color-java);
+}
+
+.button {
+    background-color: var(--color-secondary);
+    color: var(--color-css);
+    border: 2px solid var(--color-css);
+}
+
+.button:hover, :checked {
+    background-color: var(--color-css);
+    color: var(--color-secondary);
+    border: 2px solid var(--color-css);
 }
 
 #root {
