@@ -22,6 +22,9 @@ h2 {
 .espaco {
     padding-right: 20px;
 }
+.alinhamento {
+    text-align: center;
+}
 
 table {
     background-color: var(--color-primary);
