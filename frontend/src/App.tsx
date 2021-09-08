@@ -1,3 +1,5 @@
+import DataTable from "components/DataTable";
+import Footer from "components/Footer";
 import NavBar from "components/navBar";
 
 function App() {
@@ -5,8 +7,10 @@ function App() {
     <>
       <NavBar />
       <div className="container">
-        <h1>Olá Mundo !</h1>
+        <h1>Formações e Cursos.</h1>
+        <DataTable />
       </div>
+      <Footer />
     </>
   );
 }
